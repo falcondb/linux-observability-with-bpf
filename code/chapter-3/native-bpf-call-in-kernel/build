@@ -1,0 +1,3 @@
+clang -O2 -target bpf -c map_in_kernel.c  -I/kernel-src/samples/bpf  -I/kernel-src/tools/testing/selftests/bpf
+
+clang -o load -lelf -L/urs/local/lib64/ -lbpf /kernel-src/samples/bpf/bpf_load.c -I/kernel-src/samples/bpf  -I/kernel-src/tools/lib -I/kernel-src/tools/perf -I/kernel-src/tools/include  loader.c

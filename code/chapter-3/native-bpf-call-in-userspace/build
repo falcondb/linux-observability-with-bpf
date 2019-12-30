@@ -1,0 +1,1 @@
+gcc ative-bpf-call-in-userspace.c -I/kernel-src/include/uapi -I/kernel-src/include  -L/usr/local/lib64/ -lbpf -lelf  -o ative-bpf-call-in-userspacea

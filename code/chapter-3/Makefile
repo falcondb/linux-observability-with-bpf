@@ -11,7 +11,7 @@ CCINCLUDE += -I/kernel-src/samples/bpf
 CCINCLUDE += -I/kernel-src/tools/lib
 # for libbpf.h
 CCINCLUDE += -I/kernel-src/tools/lib/bpf
-LIBRARY_PATH = -L/urs/local/lib64/
+LIBRARY_PATH = -L/usr/local/lib64/
 BPFSO = -lbpf
 ELFSO = -lelf
 
